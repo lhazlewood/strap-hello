@@ -1,0 +1,2 @@
+hooks:
+  run: hooks/run.sh

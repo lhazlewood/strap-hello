@@ -5,5 +5,5 @@ strap::lib::import logging || source ../../../ultimatedotfiles/strap/lib/logging
 strap::bot "Hello"
 
 strap::running "Saying hello"
-strap::action "Hello!"
+strap::action "Hello World!"
 strap::ok

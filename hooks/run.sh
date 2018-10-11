@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PACKAGE_DIR="$(dirname "$(strap:fs:path "${BASH_SOURCE[0]}")")"
+PACKAGE_DIR="$(dirname "$(strap::fs::path "${BASH_SOURCE[0]}")")"
 
 strap::lib::import logging || source ../../../ultimatedotfiles/strap/lib/logging.sh
 
